@@ -1,0 +1,77 @@
+@media only screen and (min-width: 768px) {
+
+
+.encabezado {
+    background-color: #D58ADE;
+    color:#140D15;
+    font-family: Helvetica;
+    font-weight:bold;
+}
+li {
+    display: inline-block;
+    width: 25%;
+    position:relative;
+    font-size: 15px;
+    color: black;
+
+ }
+ ul li a:hover {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    float: left;
+    text-align: center
+}
+.login {
+    background-color: #8C298F;
+    font-family: Arial;
+}
+
+.transform{
+    transform: translate(150px);
+}
+
+.paraTransicion:hover {
+    transition: 10s;
+    height: 500px; 
+    width: 346px;
+  }
+
+#menu {
+    background-image: linear-gradient(#D58ADE, #D58ADE);
+}
+
+
+/*GRIND*/
+
+.grindhead {
+    background-color: #D58ADE;
+}
+
+.grindpie {
+    background-color: #FCEFFF;
+}
+
+.grindlanding {
+    background-image: linear-gradient(white, pink);
+}
+
+
+header {
+    grid-area: header;
+    padding: 25px;
+}
+
+footer {
+    grid-area: footer;
+}
+
+section#productos {
+    grid-area: productos;
+}
+
+section#servicios {
+    grid-area: servicios;
+}
+
+}
